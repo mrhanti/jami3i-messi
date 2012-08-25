@@ -1,0 +1,295 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	background-color: #FFFFF7;
+}
+
+h1 {
+	font: 30px 'Asap',Verdana, arial;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+}
+
+h1 strong {
+	font-size: 40px; 
+}
+
+h1 small {
+	font-size: 20px;
+}
+
+
+h2 {
+	font: 20px 'Asap',Verdana, arial;
+	padding: 0px;
+	margin: 0px;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+}
+
+hr {
+	color: #424240;
+}
+
+#content {
+	width: 80%;
+	min-height: 100%;
+	padding: 30px 0px;
+	margin-bottom: -10px;
+   	position: relative;
+}
+
+#sidebar {
+	width: 31.56%;
+	height: auto;
+	padding: 20px;
+}
+
+#sidebar div#profile {
+	width: 100px;
+	height: 118px;
+	background-image: url('../img/logo.png');
+	
+}
+
+#sidebar div#description {
+	width: 80%;
+	height: auto;
+	padding: 0px;
+}
+
+#sidebar div#description p {
+	font: 12px Verdana, sans-serif;
+	color: #424240;
+	letter-spacing: 1px;
+	text-transform: lowercase;
+	padding: 10px 0px 40px;
+}
+
+#sidebar div#navigation {
+	margin-top: 20px;
+	width: 70%;
+	margin-left: 40px;
+}
+
+#main {
+	width: 64%;
+	height: auto;
+	border-left: 1px dotted #424240;
+}
+
+#main div#header {
+	width: 100%;
+	height: auto;
+	border-bottom: 1px dotted #424240;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+#main div#content-2 {
+	width: 100%;
+	min-height: 100%;
+	position: relative;
+	padding: 20px 10px 0px;
+}
+
+#main p {
+	font: 15px 'Helvetica', Verdana, Arial;
+	letter-spacing: 2px;
+}
+
+.clearfooter {
+   height: 10px;
+   clear: both;
+}
+
+#comments {
+	width: 80%;
+	min-height: 100px;
+	padding: 5px;
+}
+
+#footer {
+	height: 10px;
+	padding: 20px;
+	background-color: #DA4A38;
+	height: 10px;
+   	position: relative;
+   	text-align: right;
+}
+
+#footer span {
+	color: #fff;
+	font: 16px 'Asap', Verdana, Arial;
+}
+
+#footer a {
+	color: #fff;
+	font: 16px 'Asap', Verdana, Arial;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
+
+#noComments span {
+	font: bold 26px 'Asap', Verdana, sans-serif;
+}
+
+#PostComment {
+	font: 12px 'Asap', Verdana, sans-serif;
+	min-width: 100px;
+}
+
+#PostComment th {
+	text-align: left;
+	vertical-align: middle;
+	color: #424240;
+	width: 60px;
+}
+
+#PostComment textarea {
+	margin: 0;
+}
+
+#PostComment td input, #PostComment textarea {
+	padding: 2px;
+	border: 1px solid #aaa;
+}
+
+#Post {
+	width: 100%;
+	font-family: 'Asap', Verdana, sans-serif;
+	margin-top: 0;
+}
+	/*
+ 	* classes
+ 	* */
+ 	
+.center {
+	margin: 0 auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.navigation li {
+	list-style: none;
+	padding: 10px 0;
+}
+
+.navigation li a {
+	font: 14px Verdana, sans-serif;
+	padding: 4px 10px; 
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+.navigation li a:hover {
+	background-color: #DA4A38;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	color: #fff;
+}
+
+.post-preview {
+	width: 100%;
+	font-family: 'Asap', Verdana, sans-serif;
+	margin-top: 30px;
+}
+
+.post-preview-index {
+	width: 100%;
+	font-family: 'Asap', Verdana, sans-serif;
+	padding: 10px 0px;
+}
+
+span.title {
+	font-size: 16px;
+	color: #DA4A38;
+	text-transform: uppercase;
+}
+
+span.author {
+	font-size: 10px;
+	color: #424240;
+	letter-spacing: 2px;
+	text-transform: lowercase;
+}
+
+span.created {
+	font-size: 10px;
+	color: #424240;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+
+span.views {
+	font-size: 10px;
+	color: #424240;
+	letter-spacing: 2px;
+}
+
+a.linkSeeMore {
+	font: 12px Verdana, sans-serif;
+	padding: 2px 10px; 
+	text-decoration: none;
+	background-color: #eee;
+	color: #424240;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+}
+
+a.linkSeeMore:hover {
+	background-color: #DA4A38;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	color: #fff;
+}
+
+.submit input {
+	width: 100px;
+}
+
+#comments .comment {
+	width: 100%;
+	height: auto;
+	background: #fff;
+	margin-bottom: 6px;
+}
+
+#comments .comment span {
+	font: 13px 'Asap', Verdana, sans-serif;
+	color: gray;
+}
+
+#comments .comment #name {
+	text-transform: uppercase;
+}
+
+#comments .comment #created {
+	color: #000;
+}
+
+#comments .comment div {
+	margin: 0;
+	padding: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #F7F7F7;
+	font: 14px 'Asap', Verdana, sans-serif;
+}
+
+#loader {
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
